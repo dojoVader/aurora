@@ -28,36 +28,54 @@
     text-align: center;
     vertical-align: middle;
     cursor: pointer;
-    buttonBackground($btnBackground, $btnBackgroundHighlight, $grayDark, 0 1px 1px rgba(255,255,255,.75));
-    border: 1px solid $btnBorder;
-    border-bottom-color: darken($btnBorder, 10%);
-    border-radius: 1px;
-    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2), 0 1px 2px rgba(0,0,0,0.05);
+    buttonBackgroundFlat($btnBackground,btnBackgroundHighlight);
+    // border: 1px solid $btnBorder;
+    // border-bottom-color: darken($btnBorder, 10%);
+    border-radius: 0px;
+   // box-shadow: inset 0 1px 0 rgba(255,255,255,0.2), 0 1px 2px rgba(0,0,0,0.05);
 }
 
 // Colours
 .dbootstrap .primary .dijitButtonNode {
-    buttonBackground($btnPrimaryBackground, $btnPrimaryBackgroundHighlight);
+    buttonBackgroundFlat($btnPrimaryBackground);
+    &:hover{
+     background-color:$btnPrimaryBackgroundHighlight;
+    }
 }
 
 .dbootstrap .warning .dijitButtonNode {
-    buttonBackground($btnWarningBackground, $btnWarningBackgroundHighlight);
+    buttonBackgroundFlat($btnWarningBackground);
+    &:hover{
+     background-color:$btnWarningBackgroundHighlight;
+    }
 }
 
 .dbootstrap .danger .dijitButtonNode {
-    buttonBackground($btnDangerBackground, $btnDangerBackgroundHighlight);
+    buttonBackgroundFlat($btnDangerBackground);
+    &:hover{
+     background-color:$btnDangerBackgroundHighlight;
+    }
 }
 
 .dbootstrap .success .dijitButtonNode {
-    buttonBackground($btnSuccessBackground, $btnSuccessBackgroundHighlight);
+    buttonBackgroundFlat($btnSuccessBackground);
+    &:hover{
+     background-color:$btnSuccessBackgroundHighlight
+    }
 }
 
 .dbootstrap .info .dijitButtonNode {
-    buttonBackground($btnInfoBackground, $btnInfoBackgroundHighlight);
+    buttonBackgroundFlat($btnInfoBackground);
+    &:hover{
+     background-color:$btnInfoBackgroundHighlight
+    }
 }
 
 .dbootstrap .inverse .dijitButtonNode {
-    buttonBackground($btnInverseBackground, $btnInverseBackgroundHighlight);
+    buttonBackgroundFlat($btnInverseBackground);
+    &:hover{
+     background-color:$btnInverseBackgroundHighlight
+    }
 }
 
 // Hover

@@ -29,6 +29,8 @@ $yellow = #ffc40d;
 $orange = #f89406;
 $pink = #c3325f;
 $purple = #7a43b6;
+$dodgerblue=#4FC1E9;
+
 
 
 // Scaffolding
@@ -48,19 +50,19 @@ $linkColorHover = darken($linkColor, 15%);
 
 // Backgrounds
 // -------------------------
-$backgroundColor = #f5f5f5;
-$backgroundHighlightColor = #f9f9f9;
+$backgroundColor = $dodgerblue;
+$backgroundHighlightColor = #5D9CEC;
 $backgroundHover = $backgroundColor;
 $backgroundActive = $backgroundHover;
 
-$infoBackground = #5bc0de;
-$infoBackgroundHighlight = #2f96b4;
-$successBackground = #62c462;
-$successBackgroundHighlight = #51a351;
-$warningBackgroundHighlight = $orange;
+$infoBackground = #48cfad;
+$infoBackgroundHighlight = spin(#48cfad,10);
+$successBackground = #8cc152;
+$successBackgroundHighlight = #A0D468;
+$warningBackgroundHighlight =#f6bb42;
 $warningBackground = lighten($warningBackgroundHighlight, 15%);
-$dangerBackground = #ee5f5b;
-$dangerBackgroundHighlight = #bd362f;
+$dangerBackground = #da4453;
+$dangerBackgroundHighlight = #ED5565;
 
 
 
@@ -90,11 +92,11 @@ $tableBorderRadius = 3px;
 
 // Buttons
 // -------------------------
-$btnBackground = $white;
-$btnBackgroundHighlight = darken($white, 10%);
+$btnBackground = $dodgerblue;
+$btnBackgroundHighlight = lighten($white, 10%);
 $btnBorder = #bbb;
 
-$btnPrimaryBackground = $linkColor;
+$btnPrimaryBackground = $dodgerblue;
 $btnPrimaryBackgroundHighlight = spin($btnPrimaryBackground, 20%);
 
 $btnInfoBackground = $infoBackground;
@@ -124,7 +126,7 @@ $formActionsBackground = $backgroundColor;
 
 // Dropdowns
 // -------------------------
-$dropdownBackground = $white;
+$dropdownBackground = #434A54;
 $dropdownBorder = rgba(0,0,0,.2);
 $dropdownDividerTop = #e5e5e5;
 $dropdownDividerBottom = $white;
