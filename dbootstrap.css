@@ -250,10 +250,10 @@ ul.icons li .icon-large:before {
 .icon-border {
   border: solid 3px #ccc;
   padding: 0.2em 0.25em 0.15em;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
 }
 .icon-muted {
   color: #ccc;
@@ -1210,8 +1210,8 @@ ul.icons li .icon-large:before {
   min-height: 20px;
   padding: 19px;
   margin-bottom: 20px;
-  background-color: #f5f5f5;
-  border: 1px solid #e4e4e4;
+  background-color: #4fc1e9;
+  border: 1px solid #3cbae7;
   -webkit-border-radius: 4px;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.05);
@@ -1401,11 +1401,11 @@ a:hover {
   z-index: 1000;
   padding: 5px 0;
   margin: 2px 0 0;
-  background-color: #fff;
+  background-color: #434a54;
   border: 1px solid #ccc;
   border: 1px solid rgba(0,0,0,0.2);
-  -webkit-border-radius: 6px;
-  border-radius: 6px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
   -webkit-box-shadow: 0 5px 10px rgba(0,0,0,0.2);
   box-shadow: 0 5px 10px rgba(0,0,0,0.2);
   border-collapse: separate;
@@ -1597,101 +1597,45 @@ a:hover {
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
-  color: #333;
-  text-shadow: 0 1px 1px rgba(255,255,255,0.75);
-  background-color: #e6e6e6;
-  background-image: -webkit-linear-gradient(top, #fff, #e6e6e6);
-  background-image: -moz-linear-gradient(top, #fff, #e6e6e6);
-  background-image: -o-linear-gradient(top, #fff, #e6e6e6);
-  background-image: -ms-linear-gradient(top, #fff, #e6e6e6);
-  background-image: linear-gradient(to bottom, #fff, #e6e6e6);
-  background-repeat: repeat-x;
-  border-color: #e6e6e6 #e6e6e6 #c4c4c4;
-  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
-  border: 1px solid #bbb;
-  border-bottom-color: #a8a8a8;
-  -webkit-border-radius: 1px;
-  border-radius: 1px;
-  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2), 0 1px 2px rgba(0,0,0,0.05);
-  box-shadow: inset 0 1px 0 rgba(255,255,255,0.2), 0 1px 2px rgba(0,0,0,0.05);
+  background-color: #4fc1e9;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
 }
 .dbootstrap .primary .dijitButtonNode {
-  color: #fff;
-  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
-  background-color: #04c;
-  background-image: -webkit-linear-gradient(top, #08c, #04c);
-  background-image: -moz-linear-gradient(top, #08c, #04c);
-  background-image: -o-linear-gradient(top, #08c, #04c);
-  background-image: -ms-linear-gradient(top, #08c, #04c);
-  background-image: linear-gradient(to bottom, #08c, #04c);
-  background-repeat: repeat-x;
-  border-color: #04c #04c #003aad;
-  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+  background-color: #4fc1e9;
+}
+.dbootstrap .primary .dijitButtonNode:hover {
+  background-color: #4f8ee9;
 }
 .dbootstrap .warning .dijitButtonNode {
-  color: #fff;
-  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
-  background-color: #f89406;
-  background-image: -webkit-linear-gradient(top, #faa42b, #f89406);
-  background-image: -moz-linear-gradient(top, #faa42b, #f89406);
-  background-image: -o-linear-gradient(top, #faa42b, #f89406);
-  background-image: -ms-linear-gradient(top, #faa42b, #f89406);
-  background-image: linear-gradient(to bottom, #faa42b, #f89406);
-  background-repeat: repeat-x;
-  border-color: #f89406 #f89406 #d37e05;
-  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+  background-color: #f7c55e;
+}
+.dbootstrap .warning .dijitButtonNode:hover {
+  background-color: #f6bb42;
 }
 .dbootstrap .danger .dijitButtonNode {
-  color: #fff;
-  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
-  background-color: #bd362f;
-  background-image: -webkit-linear-gradient(top, #ee5f5b, #bd362f);
-  background-image: -moz-linear-gradient(top, #ee5f5b, #bd362f);
-  background-image: -o-linear-gradient(top, #ee5f5b, #bd362f);
-  background-image: -ms-linear-gradient(top, #ee5f5b, #bd362f);
-  background-image: linear-gradient(to bottom, #ee5f5b, #bd362f);
-  background-repeat: repeat-x;
-  border-color: #bd362f #bd362f #a12e28;
-  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+  background-color: #da4453;
+}
+.dbootstrap .danger .dijitButtonNode:hover {
+  background-color: #ed5565;
 }
 .dbootstrap .success .dijitButtonNode {
-  color: #fff;
-  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
-  background-color: #51a351;
-  background-image: -webkit-linear-gradient(top, #62c462, #51a351);
-  background-image: -moz-linear-gradient(top, #62c462, #51a351);
-  background-image: -o-linear-gradient(top, #62c462, #51a351);
-  background-image: -ms-linear-gradient(top, #62c462, #51a351);
-  background-image: linear-gradient(to bottom, #62c462, #51a351);
-  background-repeat: repeat-x;
-  border-color: #51a351 #51a351 #458b45;
-  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+  background-color: #8cc152;
+}
+.dbootstrap .success .dijitButtonNode:hover {
+  background-color: #a0d468;
 }
 .dbootstrap .info .dijitButtonNode {
-  color: #fff;
-  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
-  background-color: #2f96b4;
-  background-image: -webkit-linear-gradient(top, #5bc0de, #2f96b4);
-  background-image: -moz-linear-gradient(top, #5bc0de, #2f96b4);
-  background-image: -o-linear-gradient(top, #5bc0de, #2f96b4);
-  background-image: -ms-linear-gradient(top, #5bc0de, #2f96b4);
-  background-image: linear-gradient(to bottom, #5bc0de, #2f96b4);
-  background-repeat: repeat-x;
-  border-color: #2f96b4 #2f96b4 #287f99;
-  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+  background-color: #48cfad;
+}
+.dbootstrap .info .dijitButtonNode:hover {
+  background-color: #48cfc3;
 }
 .dbootstrap .inverse .dijitButtonNode {
-  color: #fff;
-  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  background-color: #444;
+}
+.dbootstrap .inverse .dijitButtonNode:hover {
   background-color: #222;
-  background-image: -webkit-linear-gradient(top, #444, #222);
-  background-image: -moz-linear-gradient(top, #444, #222);
-  background-image: -o-linear-gradient(top, #444, #222);
-  background-image: -ms-linear-gradient(top, #444, #222);
-  background-image: linear-gradient(to bottom, #444, #222);
-  background-repeat: repeat-x;
-  border-color: #222 #222 #1d1d1d;
-  border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
 }
 .dbootstrap .dijitButtonHover .dijitButtonNode,
 .dbootstrap .dijitDropDownButtonHover .dijitButtonNode,
@@ -1742,7 +1686,6 @@ a:hover {
 }
 .dbootstrap .dijitArrowButtonInner {
   height: auto;
-  width: auto;
 }
 .dbootstrap .dijitComboButton td.dijitStretch,
 .dbootstrap .dijitComboButton td.dijitArrowButton {
@@ -1754,8 +1697,9 @@ a:hover {
 .dbootstrap .dijitSelect .dijitButtonNode.dijitArrowButton {
   border-left-width: 0;
   padding: 6px 10px;
-  -webkit-border-radius: 0 4px 4px 0;
-  border-radius: 0 4px 4px 0;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  height: 2vh;
 }
 .dbootstrap .dijitComboButton .dijitStretch {
   -webkit-border-radius: 4px 0 0 4px;
@@ -1771,8 +1715,8 @@ a:hover {
   display: inline-block;
   font-size: 14px;
   color: #555;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
   background-color: #fff;
   border: 1px solid #ccc;
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
@@ -1782,6 +1726,7 @@ a:hover {
   -o-transition: border linear 0.2s, box-shadow linear 0.2s;
   -ms-transition: border linear 0.2s, box-shadow linear 0.2s;
   transition: border linear 0.2s, box-shadow linear 0.2s;
+  height: auto;
 }
 .dbootstrap .dijitTextBoxFocused {
   outline: none;
@@ -1811,7 +1756,7 @@ a:hover {
   background-image: none;
   -webkit-box-shadow: none;
   box-shadow: none;
-  background-color: #ddd;
+  background-color: #e6e9ed;
 }
 .dj_webkit .dbootstrap .dijitTextBoxDisabled input,
 .dj_webkit .dbootstrap textarea.dijitTextAreaDisabled,
@@ -1833,7 +1778,7 @@ a:hover {
 .dbootstrap .dijitComboBoxDisabled .dijitButtonNode,
 .dbootstrap .dijitSpinnerDisabled .dijitButtonNode,
 .dbootstrap .dijitSelectDisabled .dijitButtonNode {
-  background-color: #ddd;
+  background-color: #e6e9ed;
 }
 .dbootstrap .dijitTextBoxError {
   color: #b94a48;
@@ -1890,11 +1835,11 @@ a:hover {
 .dbootstrap .dijitSliderRemainingBar,
 .dbootstrap .dijitSliderBumperH {
   border: none;
-  background-image: -webkit-linear-gradient(center top, #f5f5f5, #f9f9f9);
-  background-image: -moz-linear-gradient(center top, #f5f5f5, #f9f9f9);
-  background-image: -o-linear-gradient(center top, #f5f5f5, #f9f9f9);
-  background-image: -ms-linear-gradient(center top, #f5f5f5, #f9f9f9);
-  background-image: linear-gradient(center top, #f5f5f5, #f9f9f9);
+  background-image: -webkit-linear-gradient(center top, #4fc1e9, #5d9cec);
+  background-image: -moz-linear-gradient(center top, #4fc1e9, #5d9cec);
+  background-image: -o-linear-gradient(center top, #4fc1e9, #5d9cec);
+  background-image: -ms-linear-gradient(center top, #4fc1e9, #5d9cec);
+  background-image: linear-gradient(center top, #4fc1e9, #5d9cec);
   -webkit-box-shadow: inset 2px 1px 2px rgba(0,0,0,0.1);
   box-shadow: inset 2px 1px 2px rgba(0,0,0,0.1);
 }
@@ -1913,6 +1858,8 @@ a:hover {
 .dbootstrap .dijitSliderImageHandle {
   border: 1px solid rgba(0,0,0,0.15);
   background-color: #fff;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
 }
 .dbootstrap .dijitRuleMark {
   border-color: #999;
@@ -1948,11 +1895,11 @@ a:hover {
 .dbootstrap .dijitSliderV .dijitSliderRemainingBar,
 .dbootstrap .dijitSliderBumperV {
   border: none;
-  background-image: -webkit-linear-gradient(center top, #f5f5f5, #f9f9f9);
-  background-image: -moz-linear-gradient(center top, #f5f5f5, #f9f9f9);
-  background-image: -o-linear-gradient(center top, #f5f5f5, #f9f9f9);
-  background-image: -ms-linear-gradient(center top, #f5f5f5, #f9f9f9);
-  background-image: linear-gradient(center top, #f5f5f5, #f9f9f9);
+  background-image: -webkit-linear-gradient(center top, #4fc1e9, #5d9cec);
+  background-image: -moz-linear-gradient(center top, #4fc1e9, #5d9cec);
+  background-image: -o-linear-gradient(center top, #4fc1e9, #5d9cec);
+  background-image: -ms-linear-gradient(center top, #4fc1e9, #5d9cec);
+  background-image: linear-gradient(center top, #4fc1e9, #5d9cec);
   -webkit-box-shadow: inset 2px -2px 2px rgba(0,0,0,0.1);
   box-shadow: inset 2px -2px 2px rgba(0,0,0,0.1);
 }
@@ -2007,8 +1954,8 @@ a:hover {
   background-color: #fff;
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
   box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
-  -webkit-border-radius: 3px 0 0 3px;
-  border-radius: 3px 0 0 3px;
+  -webkit-border-radius: 0px 0 0 0px;
+  border-radius: 0px 0 0 0px;
   border: 1px solid #ccc;
 }
 .dbootstrap .dijitSelectDisabled .dijitButtonContents .dijitButtonText {
@@ -2042,7 +1989,7 @@ a:hover {
   z-index: 1000;
   padding: 5px 0;
   margin: 2px 0 0;
-  background-color: #fff;
+  background-color: #434a54;
   border: 1px solid #ccc;
   border: 1px solid rgba(0,0,0,0.2);
   -webkit-border-radius: 6px;
@@ -2053,9 +2000,8 @@ a:hover {
 }
 .dbootstrap .dijitDialog {
   background-color: #fff;
-  border: 1px solid rgba(0,0,0,0.3);
-  -webkit-border-radius: 6px;
-  border-radius: 6px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
   -webkit-box-shadow: 0 3px 7px rgba(0,0,0,0.3);
   box-shadow: 0 3px 7px rgba(0,0,0,0.3);
 }
@@ -2072,13 +2018,16 @@ a:hover {
   position: relative;
   margin-top: 2px;
 }
+.dbootstrap .dijitDialogPaneContent {
+  padding: 2%;
+}
 .dbootstrap .dijitDialogCloseIconHover .closeText {
   opacity: 0.4;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
   filter: alpha(opacity=40);
 }
 .dbootstrap .dijitDialogUnderlay {
-  background-color: #000;
+  background-color: #e5e5e5;
   opacity: 0.8;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
   filter: alpha(opacity=80);
@@ -2088,8 +2037,9 @@ a:hover {
   border-bottom: 1px solid #eee;
 }
 .dbootstrap .dijitDialogTitle {
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 14px;
+  font-weight: normal;
+  color: #000;
   margin: 0;
 }
 .dbootstrap .dijitDialogPaneContentArea {
@@ -2099,7 +2049,7 @@ a:hover {
   padding: 14px 15px 15px;
   margin-bottom: 0;
   text-align: right;
-  background-color: #f5f5f5;
+  background-color: #4fc1e9;
   border-top: 1px solid #ddd;
   -webkit-border-radius: 0 0 6px 6px;
   border-radius: 0 0 6px 6px;
@@ -2196,10 +2146,10 @@ a:hover {
   box-shadow: 0 5px 10px rgba(0,0,0,0.2);
 }
 .dbootstrap .dijitCalendar {
-  background-color: #eee;
+  background-color: #fd9883;
   border-collapse: separate;
-  -webkit-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
   border: 1px solid rgba(0,0,0,0.2);
   text-align: center;
   padding: 8px;
@@ -2207,7 +2157,7 @@ a:hover {
 }
 .dbootstrap .dijitCalendarDateTemplate {
   padding: 3px 7px;
-  background-color: #fff;
+  background-color: redCalendar;
 }
 .dbootstrap .dijitCalendarDayLabelTemplate {
   padding-bottom: 5px;
@@ -2220,12 +2170,13 @@ a:hover {
 }
 .dbootstrap .dijitCalendarPreviousMonth,
 .dbootstrap .dijitCalendarNextMonth {
-  background-color: #dfe8ff;
   color: #08c;
 }
 .dbootstrap .dijitCalendarSelectedDate {
-  background-color: #0074cc;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
 }
 .dbootstrap .dijitCalendarCurrentDate .dijitCalendarDateLabel {
   text-decoration: underline;
@@ -2240,7 +2191,7 @@ a:hover {
 }
 .dbootstrap .dijitCalendarYearLabel {
   margin-top: 8px;
-  text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+  text-shadow: 0 1px 0 rgba(168,0,0,0.8);
 }
 .dbootstrap .dijitA11ySideArrow {
   display: none;
@@ -2252,11 +2203,11 @@ a:hover {
   border: none;
   -webkit-border-radius: 4px;
   border-radius: 4px;
-  background-image: -webkit-linear-gradient(center top, #f5f5f5, #f9f9f9);
-  background-image: -moz-linear-gradient(center top, #f5f5f5, #f9f9f9);
-  background-image: -o-linear-gradient(center top, #f5f5f5, #f9f9f9);
-  background-image: -ms-linear-gradient(center top, #f5f5f5, #f9f9f9);
-  background-image: linear-gradient(center top, #f5f5f5, #f9f9f9);
+  background-image: -webkit-linear-gradient(center top, #4fc1e9, #5d9cec);
+  background-image: -moz-linear-gradient(center top, #4fc1e9, #5d9cec);
+  background-image: -o-linear-gradient(center top, #4fc1e9, #5d9cec);
+  background-image: -ms-linear-gradient(center top, #4fc1e9, #5d9cec);
+  background-image: linear-gradient(center top, #4fc1e9, #5d9cec);
   -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
   box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
 }
@@ -2283,36 +2234,36 @@ a:hover {
   text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
 }
 .dbootstrap .dijitProgressBar.danger .dijitProgressBarFull {
-  background-color: #ee5f5b;
-  background-image: -webkit-linear-gradient(center top, #ee5f5b, #bd362f);
-  background-image: -moz-linear-gradient(center top, #ee5f5b, #bd362f);
-  background-image: -o-linear-gradient(center top, #ee5f5b, #bd362f);
-  background-image: -ms-linear-gradient(center top, #ee5f5b, #bd362f);
-  background-image: linear-gradient(center top, #ee5f5b, #bd362f);
+  background-color: #da4453;
+  background-image: -webkit-linear-gradient(center top, #da4453, #ed5565);
+  background-image: -moz-linear-gradient(center top, #da4453, #ed5565);
+  background-image: -o-linear-gradient(center top, #da4453, #ed5565);
+  background-image: -ms-linear-gradient(center top, #da4453, #ed5565);
+  background-image: linear-gradient(center top, #da4453, #ed5565);
 }
 .dbootstrap .dijitProgressBar.success .dijitProgressBarFull {
-  background-color: #62c462;
-  background-image: -webkit-linear-gradient(center top, #62c462, #51a351);
-  background-image: -moz-linear-gradient(center top, #62c462, #51a351);
-  background-image: -o-linear-gradient(center top, #62c462, #51a351);
-  background-image: -ms-linear-gradient(center top, #62c462, #51a351);
-  background-image: linear-gradient(center top, #62c462, #51a351);
+  background-color: #8cc152;
+  background-image: -webkit-linear-gradient(center top, #8cc152, #a0d468);
+  background-image: -moz-linear-gradient(center top, #8cc152, #a0d468);
+  background-image: -o-linear-gradient(center top, #8cc152, #a0d468);
+  background-image: -ms-linear-gradient(center top, #8cc152, #a0d468);
+  background-image: linear-gradient(center top, #8cc152, #a0d468);
 }
 .dbootstrap .dijitProgressBar.info .dijitProgressBarFull {
-  background-color: #5bc0de;
-  background-image: -webkit-linear-gradient(center top, #5bc0de, #2f96b4);
-  background-image: -moz-linear-gradient(center top, #5bc0de, #2f96b4);
-  background-image: -o-linear-gradient(center top, #5bc0de, #2f96b4);
-  background-image: -ms-linear-gradient(center top, #5bc0de, #2f96b4);
-  background-image: linear-gradient(center top, #5bc0de, #2f96b4);
+  background-color: #48cfad;
+  background-image: -webkit-linear-gradient(center top, #48cfad, #48cfc3);
+  background-image: -moz-linear-gradient(center top, #48cfad, #48cfc3);
+  background-image: -o-linear-gradient(center top, #48cfad, #48cfc3);
+  background-image: -ms-linear-gradient(center top, #48cfad, #48cfc3);
+  background-image: linear-gradient(center top, #48cfad, #48cfc3);
 }
 .dbootstrap .dijitProgressBar.warning .dijitProgressBarFull {
-  background-color: #faa42b;
-  background-image: -webkit-linear-gradient(center top, #faa42b, #f89406);
-  background-image: -moz-linear-gradient(center top, #faa42b, #f89406);
-  background-image: -o-linear-gradient(center top, #faa42b, #f89406);
-  background-image: -ms-linear-gradient(center top, #faa42b, #f89406);
-  background-image: linear-gradient(center top, #faa42b, #f89406);
+  background-color: #f7c55e;
+  background-image: -webkit-linear-gradient(center top, #f7c55e, #f6bb42);
+  background-image: -moz-linear-gradient(center top, #f7c55e, #f6bb42);
+  background-image: -o-linear-gradient(center top, #f7c55e, #f6bb42);
+  background-image: -ms-linear-gradient(center top, #f7c55e, #f6bb42);
+  background-image: linear-gradient(center top, #f7c55e, #f6bb42);
 }
 .dbootstrap .dijitProgressBar.striped .dijitProgressBarFull,
 .dbootstrap .dijitProgressBarIndeterminate .dijitProgressBarFull {
@@ -2375,7 +2326,7 @@ a:hover {
 }
 .dbootstrap .dijitTreeRowHover {
   color: #333;
-  background-color: #f5f5f5;
+  background-color: #4fc1e9;
 }
 .dbootstrap .dijitTreeExpando:before {
   cursor: pointer;
@@ -2524,3 +2475,4 @@ a:hover {
   height: auto;
   margin: 0px;
 }
+
