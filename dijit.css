@@ -1179,6 +1179,11 @@ body .dijitAlignClient { position: absolute; }
 
 .dijitCalendarIncrementControl {
     vertical-align: middle;
+    vertical-align: middle;
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 3% 22%;
+    color: white;
 }
 
 .dijitCalendarIncrementControl,
