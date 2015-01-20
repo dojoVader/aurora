@@ -340,8 +340,7 @@ ul.icons li .icon-large:before {
   content: "\f00b";
 }
 .icon-ok:before,
-.dbootstrap .dijitCheckBox.dijitCheckBoxChecked:before,
-.dbootstrap .dijitRadio.dijitRadioChecked:before {
+.dbootstrap .dijitCheckBox.dijitCheckBoxChecked:before {
   content: "\f00c";
 }
 .icon-remove:before,
@@ -1107,7 +1106,8 @@ ul.icons li .icon-large:before {
 .icon-spinner:before {
   content: "\f110";
 }
-.icon-circle:before {
+.icon-circle:before,
+.dbootstrap .dijitRadio.dijitRadioChecked:before {
   content: "\f111";
 }
 .icon-reply:before {
@@ -1810,9 +1810,9 @@ a:hover {
   -webkit-box-shadow: inset 1px 1px 1px 0 rgba(1,1,1,0.2);
   box-shadow: inset 1px 1px 1px 0 rgba(1,1,1,0.2);
   text-align: center;
-  -webkit-border-radius: 2px;
-  border-radius: 2px;
-  padding: 1px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  padding: 0px;
   background-color: #fff;
   position: relative;
 }
@@ -1827,6 +1827,8 @@ a:hover {
 .dbootstrap .dijitCheckBox:before,
 .dbootstrap .dijitRadio:before {
   vertical-align: top;
+  top: -2px;
+  position: relative;
 }
 .dbootstrap .dijitCheckBoxDisabled,
 .dbootstrap .dijitRadioDisabled {
@@ -1838,6 +1840,14 @@ a:hover {
 .dbootstrap .dijitRadio {
   -webkit-border-radius: 20px;
   border-radius: 20px;
+  border: 1px solid #4fc1e9;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+.dbootstrap .dijitRadio.dijitRadioChecked:before {
+  font-size: 8px;
+  top: -3px;
+  color: #4fc1e9;
 }
 .dbootstrap .dijitSlider {
   color: #999;

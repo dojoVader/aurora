@@ -656,8 +656,8 @@ div.dijitArrowButton {
 .dijitCheckBoxInput {
     padding: 0;
     border: 0;
-    width: 16px;
-    height: 16px;
+    width: 14px;
+    height: 14px;
     background-position:center center;
     background-repeat:no-repeat;
     overflow: hidden;
