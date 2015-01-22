@@ -936,6 +936,7 @@ ul.icons li .icon-large:before {
 .dijitSelectIconArrowDown:before,
 .dbootstrap .dijitArrowButtonInner:before,
 .dbootstrap .dijitSelect .dijitButtonNode.dijitArrowButton:before,
+.dijitValidationTextBox .dijitButtonNode.dijitArrowButton:before,
 .dbootstrap .dijitTitlePane .dijitOpen .dijitArrowNode:before,
 .dbootstrap .dgrid-sort-arrow:before,
 .dbootstrap .dgrid-sort-down .dgrid-sort-arrow:before {
@@ -1195,6 +1196,7 @@ ul.icons li .icon-large:before {
 .dbootstrap .dijitCheckBox:before,
 .dbootstrap .dijitRadio:before,
 .dbootstrap .dijitSelect .dijitButtonNode.dijitArrowButton:before,
+.dijitValidationTextBox .dijitButtonNode.dijitArrowButton:before,
 .dbootstrap .dijitCalendarIncrementControl:before,
 .dbootstrap .dijitTreeExpando:before,
 .dbootstrap .dijitTitlePane .dijitArrowNode:before,
@@ -1710,7 +1712,8 @@ a:hover {
 .dbootstrap .dijitComboButton .dijitArrowButton,
 .dbootstrap .dijitComboBox .dijitButtonNode.dijitArrowButton,
 .dbootstrap .dijitSpinnerButtonContainer.dijitButtonNode,
-.dbootstrap .dijitSelect .dijitButtonNode.dijitArrowButton {
+.dbootstrap .dijitSelect .dijitButtonNode.dijitArrowButton,
+.dijitValidationTextBox .dijitButtonNode.dijitArrowButton {
   border-left-width: 0;
   padding: 6px 10px;
   -webkit-border-radius: 0px;
