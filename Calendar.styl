@@ -4,16 +4,23 @@
 .dbootstrap .dijitPopup .dijitCalendar {
     margin-top: 2px;
     box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    .dijitButtonNode{
+        box-shadow:none !important;
+    }
 }
 
 .dbootstrap .dijitCalendar {
-    background-color: $redCalendar;
+    background-color: $white;
     border-collapse: separate;
     border-radius: 3px;
     border: 1px solid rgba(0,0,0,0.2);
     text-align: center;
     padding: 8px;
     font-size: $baseFontSize - 2px;
+    boxshadow();
+    .dijitButtonNode{
+        box-shadow:none !important;
+    }
 }
 
 .dbootstrap .dijitCalendarDateTemplate {
@@ -39,8 +46,8 @@
 }
 
 .dbootstrap .dijitCalendarSelectedDate {
-    background-color: $white;
-    color: #000;
+    background-color: #212121;
+    color: $white;
     border-radius: 100%;
 }
 

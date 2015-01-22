@@ -6,15 +6,24 @@
     border: none;
     color: $gray;
     transition: border linear .2s, box-shadow linear .2s;
+    .dijitArrowButton{
+        box-shadow:none !important;
+    }
 }
-
 .dbootstrap .dijitSelect .dijitButtonNode {
     @extend .dbootstrap .dijitComboBox .dijitButtonNode;
 }
 
 .dbootstrap .dijitSelect .dijitButtonNode.dijitArrowButton {
     @extend .dbootstrap .dijitComboBox .dijitButtonNode.dijitArrowButton;
+    &:before{
+         @extend .dijitIcon:before;
+    @extend .icon-caret-down:before;
+    }
 }
+
+
+
 
 .dbootstrap .dijitSelect .dijitButtonContents {
     background-color: $inputBackground;
