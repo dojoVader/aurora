@@ -2420,6 +2420,11 @@ a:hover {
 .dbootstrap .dijitEditor {
   border: 1px solid #d5d5d5;
 }
+.dbootstrap .dijitEditor .dijitButtonNode {
+  -webkit-box-shadow: 0px 1px 1px 0px #e2e2e8 !important;
+  box-shadow: 0px 1px 1px 0px #e2e2e8 !important;
+  border: 1px solid #e9e8fa;
+}
 .dbootstrap .dijitEditorDisabled {
   opacity: 0.65;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=65)";
