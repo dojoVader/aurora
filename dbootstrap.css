@@ -1613,7 +1613,7 @@ a:hover {
   vertical-align: middle;
   cursor: pointer;
   background-color: #fff;
-  border: 1px solid #e5e4f4;
+  border: 1px solid #d6d6df;
   -webkit-border-radius: 2px;
   border-radius: 2px;
   -webkit-box-shadow: 0px 1px 3px 0px #b4b4b8;
@@ -1894,7 +1894,7 @@ a:hover {
   border-color: #999;
 }
 .dbootstrap .dijitSliderBarH {
-  height: 1em;
+  height: 0.2em;
 }
 .dbootstrap .dijitSliderImageHandleH {
   -webkit-box-shadow: 1px 0 2px rgba(0,0,0,0.15);
@@ -1903,7 +1903,8 @@ a:hover {
   height: 1.5em;
 }
 .dbootstrap .dijitSliderBumperH {
-  height: 1em;
+  height: 0em;
+  display: none;
 }
 .dbootstrap .dijitSliderBumperH.dijitSliderRightBumper {
   border-bottom-right-radius: 4px;
