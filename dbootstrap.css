@@ -943,7 +943,7 @@ ul.icons li .icon-large:before {
   content: "\f0d7";
 }
 .icon-caret-up:before,
-.dbootstrap .dijitUpArrowButton .dijitArrowButtonInner:before,
+.dbootstrap .dijitUpArrowButton:before,
 .dbootstrap .dgrid-sort-up .dgrid-sort-arrow:before {
   content: "\f0d8";
 }
@@ -1193,6 +1193,7 @@ ul.icons li .icon-large:before {
 .dbootstrap .dijitMenuArrowCell .dijitMenuExpand:before,
 .dbootstrap .dijitTabStripIcon:before,
 .dbootstrap .dijitArrowButtonInner:before,
+.dbootstrap .dijitUpArrowButton:before,
 .dbootstrap .dijitCheckBox:before,
 .dbootstrap .dijitRadio:before,
 .dbootstrap .dijitSelect .dijitButtonNode.dijitArrowButton:before,
@@ -1718,7 +1719,7 @@ a:hover {
   padding: 6px 10px;
   -webkit-border-radius: 0px;
   border-radius: 0px;
-  height: 2vh;
+  height: 100%;
 }
 .dbootstrap .dijitComboButton .dijitStretch {
   -webkit-border-radius: 4px 0 0 4px;
@@ -1752,9 +1753,6 @@ a:hover {
   border-color: rgba(82,168,236,0.8);
   -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(82,168,236,0.6);
   box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(82,168,236,0.6);
-}
-.dbootstrap .dijitInputContainer {
-  padding: 6px 6px;
 }
 .dj_webkit .dbootstrap .dijitInputContainer {
   padding: 4px 4px;
@@ -1887,8 +1885,6 @@ a:hover {
 .dbootstrap .dijitSliderImageHandle {
   border: 1px solid rgba(0,0,0,0.15);
   background-color: #fff;
-  -webkit-border-radius: 12px;
-  border-radius: 12px;
 }
 .dbootstrap .dijitRuleMark {
   border-color: #999;
