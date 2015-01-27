@@ -1894,7 +1894,7 @@ a:hover {
   border-color: #999;
 }
 .dbootstrap .dijitSliderBarH {
-  height: 0.2em;
+  height: 1em;
 }
 .dbootstrap .dijitSliderImageHandleH {
   -webkit-box-shadow: 1px 0 2px rgba(0,0,0,0.15);
@@ -1903,8 +1903,7 @@ a:hover {
   height: 1.5em;
 }
 .dbootstrap .dijitSliderBumperH {
-  height: 0em;
-  display: none;
+  height: 1em;
 }
 .dbootstrap .dijitSliderBumperH.dijitSliderRightBumper {
   border-bottom-right-radius: 4px;

@@ -1699,9 +1699,9 @@ div.dijitTabDisabled, .dj_ie div.dijitTabDisabled {
 }
 
 .dijitSliderImageHandleH {
-    left:50%;
-    top:-5px;
-    vertical-align:top;
+    left: 35%;
+    top: -6px;
+    vertical-align: top;
 }
 
 .dijitSliderBar {
