@@ -1967,6 +1967,8 @@ a:hover {
   filter: alpha(opacity=65);
 }
 .dbootstrap .dijitSelect {
+  display: inline-block;
+/*Solves the Dropdown issue for Firefox*/
   border: none;
   color: #555;
   -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
@@ -1978,6 +1980,12 @@ a:hover {
 .dbootstrap .dijitSelect .dijitArrowButton {
   -webkit-box-shadow: none !important;
   box-shadow: none !important;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
 }
 .dbootstrap .dijitSelect .dijitButtonContents {
   background-color: #fff;

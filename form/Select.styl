@@ -3,11 +3,14 @@
 
 
 .dbootstrap .dijitSelect {
+    display:inline-block; /*Solves the Dropdown issue for Firefox*/
     border: none;
     color: $gray;
     transition: border linear .2s, box-shadow linear .2s;
     .dijitArrowButton{
         box-shadow:none !important;
+        display:flex;
+        
     }
 }
 .dbootstrap .dijitSelect .dijitButtonNode {
